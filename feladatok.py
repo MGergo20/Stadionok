@@ -15,3 +15,23 @@ def csapatszam(stadion_lista):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+def Buffalo(stadion_lista):
+    buffalo_db=0
+    for i in range(0,len(stadion_lista),1):
+        if stadion_lista[i].varos == "Buffalo":
+            buffalo_db+=1
+    return buffalo_db
+
+
+

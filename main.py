@@ -14,3 +14,7 @@ print(f"A New York-i Stadionok száma: {feladat1}")
 
 feladat2=feladatok.csapatszam(stadionok)
 print(f"Csapatok száma: {feladat2}")
+
+
+feladat5=feladatok.Buffalo(stadionok)
+print(f"Ennyi csapat játszott a Buffalo-ban {feladat5}")
