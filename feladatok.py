@@ -9,8 +9,7 @@ def new_york(stadion_lista):
 def csapatszam(stadion_lista):
     csapat_db=0
     for i in range(0,len(stadion_lista),1):
-        if 1<= stadion_lista[i].csapatok_szama <=100:
-            csapat_db+=1
+        csapat_db+=stadion_lista[i].csapatok_szama
     return csapat_db
 
 
